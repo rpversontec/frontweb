@@ -1,40 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script
-      crossorigin="anonymous"
-      src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"
-    ></script>
-    <style>
-      html,
-      body {
-         height: 100%;
-      }
-
-      body {
-        margin: 0;
-      }
-
-      #webchat {
-        height: 100%;
-        width: 100%;
-      }
-    </style>
+    
   </head>
   <body>
-    <div id="webchat" role="main"></div>
-    <script>
-      window.WebChat.renderWebChat(
-        {
-          directLine: window.WebChat.createDirectLine({
-            token: '65gSncHZMI0.sBJqolzLrl-M7JYwCrEB009EYi67LF3597c8bfQkKxo'
-          }),
-          userID: 'd4b915dc-0bf4-468a-89f7-48d65ea26ebd',
-          username: 'Web Chat User',
-          locale: 'en-US'
-        },
-        document.getElementById('webchat')
-      );
-    </script>
+    <div><iframe src='https://webchat.botframework.com/embed/DreamLabBot?s=YOUR_SECRET_HERE'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe></div>
   </body>
 </html>
